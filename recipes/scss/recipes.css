@@ -74,7 +74,13 @@ figure img {
     z-index: 10;
   }
   h1 {
-    font-size: 25px;
+    font-size: 10px;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  ol li {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=recipes.css.map */
