@@ -73,5 +73,8 @@ figure img {
   .desc:hover {
     z-index: 10;
   }
+  h1 {
+    font-size: 25px;
+  }
 }
 /*# sourceMappingURL=recipes.css.map */
