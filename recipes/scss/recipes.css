@@ -61,4 +61,17 @@ figure img {
   color: navy;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 500px) {
+  * {
+    min-width: 100%;
+    overflow-x: hidden;
+  }
+  .desc {
+    position: relative;
+  }
+  .desc:hover {
+    z-index: 10;
+  }
+}
 /*# sourceMappingURL=recipes.css.map */
