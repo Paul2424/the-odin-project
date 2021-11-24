@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/recipes.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=emboss|neon|fire|shadow-multiple" />
-    <link rel="icon" href="https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg">
-    <title>Lasagna</title>
+    <link rel="icon" href="../images/Ghana_Tuo_Zaafi.jpg">
+    <title>Tuo Zaafi</title>
 </head>
 <body >
-    <h1 class="font-effect-shadow-multiple">Lasagna Recipes</h1>
+    <h1 class="font-effect-shadow-multiple">Ghana_Tuo_Zaafi Recipes</h1>
     <figure>
-        <img src="https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg" 
-        alt="Lasagna" width="100%" height="350px"> 
+        <img src="../images/Ghana_Tuo_Zaafi.jpg" 
+        alt="Lasagna" width="100%" height="350px" style="object-fit: cover; object-position: 50%;"> 
     </figure>
 
     <div class="desc"> <h2>Description</h2>
@@ -24,13 +24,22 @@
             </p>
         
             <h3><i>Ingredients</i></h3>
-            <ul>
-                <li>Tablespoon Olive Oil</li>
-                <li>1 small Onion (finely diced)</li>
-                <li>1 lb. Lean Ground Beef</li>
-                <li>3/4 teaspoon Garlic Powder <br /> (or 5 garlic cloves, finely minced)x</li>
-                <li>3/4 teaspoon Salt</li>
-            </ul>
+            <script>
+                const ingredients = 
+                ["Ayoyo leaves", "Salt Peter (Potassium nitrate)",
+                "Powdered Fish", "Powdered Okro", "Dawadawa","Pepper", 
+                "Onions", "Fish seasoning", "All purpose spices",
+                "Meat (Beef)", "Palm oil", "Tomatoes", "Salmon", "Herrings",
+                "Cassava flour", "Corn flour"];
+                
+                let text = "<ul>";
+                for(let i of ingredients){
+                    text+= "<li>" + i + "</li>";
+                    }
+                    text+= "</ul>"
+
+                    document.write(text);
+            </script>
         </div>
    <section class="steps">
           <h3>Steps :</h3>
