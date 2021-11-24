@@ -71,10 +71,10 @@
     min-width: 100%;
     overflow-x: hidden;
   }
-  * .desc {
+  * body, * .desc {
     position: relative;
   }
-  * .desc:hover {
+  * body:hover, * .desc:hover {
     z-index: 10;
   }
   * h1 {
@@ -85,6 +85,10 @@
   }
   * ol li {
     font-size: 15px;
+  }
+  * .steps {
+    position: absolute;
+    bottom: -100px;
   }
 }
 /*# sourceMappingURL=recipes.css.map */

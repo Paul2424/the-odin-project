@@ -87,12 +87,14 @@ ol{line-height: 1.5em;
         overflow-x: hidden;
     }
 
-    .desc{
+   body, .desc{
         position: relative;
+        
        
 
         &:hover{
             z-index: 10;
+            
         }
     }
 
@@ -107,7 +109,10 @@ ol{line-height: 1.5em;
     ol li{
         font-size: 15px;
     }
-
+.steps{
+    position: absolute;
+    bottom: -100px;
+}
 
 }
 }
