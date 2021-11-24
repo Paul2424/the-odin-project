@@ -4,6 +4,10 @@ h1, figure {
   text-align: center;
 }
 
+* {
+  border: 1px solid red;
+}
+
 html {
   background: darkslategrey;
 }

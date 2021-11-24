@@ -1,0 +1,32 @@
+* {
+  border: 1px solid navy;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: navy url("../../images/dark-wood.jpg") repeat center;
+}
+
+body h1 {
+  font-family: Estonia;
+  color: white;
+  font-size: 80px;
+}
+
+body .recipe-select {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  margin-top: 50px;
+}
+
+body .recipe-select figcaption {
+  font-family: Lobster;
+  font-size: larger;
+}
+/*# sourceMappingURL=index.css.map */
