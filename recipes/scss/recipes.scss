@@ -89,13 +89,17 @@ ol{line-height: 1.5em;
 
    body, .desc{
         position: relative;
-        
+        font-size: 15px;
        
 
         &:hover{
             z-index: 10;
             
         }
+    }
+
+    .desc{
+        min-width: 98%;
     }
 
     h1{

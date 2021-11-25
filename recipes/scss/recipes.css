@@ -73,9 +73,13 @@
   }
   * body, * .desc {
     position: relative;
+    font-size: 15px;
   }
   * body:hover, * .desc:hover {
     z-index: 10;
+  }
+  * .desc {
+    min-width: 98%;
   }
   * h1 {
     font-size: 25px;
