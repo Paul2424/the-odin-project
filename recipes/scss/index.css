@@ -61,6 +61,8 @@ body .recipe-select figcaption {
   .recipe-select figure {
     display: block;
     margin: 10px 0;
+    position: relative;
+    left: -5px;
   }
 }
 /*# sourceMappingURL=index.css.map */

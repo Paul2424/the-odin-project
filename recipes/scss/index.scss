@@ -47,6 +47,7 @@ body{
     html{
         max-width: 100%;
         overflow-x: hidden;
+        
     }
     
     body>h1{
@@ -56,12 +57,15 @@ body{
             display: block;
             //grid-template-rows: auto auto auto;
             overflow-x: hidden;
+            
             text-align: center;
             }
 
         .recipe-select figure{
             display: block;
             margin: 10px 0;
+            position: relative;
+            left: -5px;
         }
         figure img{
            // min-width: 100%;
