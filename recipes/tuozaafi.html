@@ -18,9 +18,11 @@
 
     <div class="desc"> <h2>Description</h2>
         <p> 
-                Lasagna is a culinary dish made with stacked layers of pasta alternated with sauces and ingredients such as meats, 
-                vegetables and cheese, and sometimes topped with melted grated mozzarella cheese. 
-                ... Lasagna originated in Italy during the Middle Ages and have traditionally been ascribed to the city of Naples.
+            Tuo zaafi is a Northern Ghanaian dish made by cooking a 
+            combination of maize or millet flour and water. 
+            In the Hausa language, tuo means stirred, and zaafi means hot. 
+            Sticky, starchy, and full of carbohydrates, 
+            tuo zaafi is traditionally served with okra soup.
             </p>
         
             <h3><i>Ingredients</i></h3>
@@ -43,14 +45,41 @@
         </div>
    <section class="steps">
           <h3>Steps :</h3>
-          <ol>
-              <li>Get your ingredients ready</li>
-              <li>Make your meat sauce</li>
-              <li>Cook or don't cook your noodles</li>
-              <li>Prepare the cheese and finish the sauce</li>
-              <li>Assemble your separately prepared recipes</li>
-              <li>Add your garnishing</li>
-          </ol>
+<script>
+    const steps =["Chop the ayoyo leaves into smaller sizes", 
+    "Boil water, add chopped onion, powdered fish, powdered okro and dawadawa",
+    "After 5 minutes add ayoyo leaves and salt peter",
+    "Don't cover, stir continuously until ingredients become very soft.",
+    "Add salt and seasoning. Allow to simmer for 3 minutes and soup is ready.",
+    "Cut meat into desirable sizes. Wash and put meat in big saucepan over moderate heat.",
+    "Blend onion, ginger, garlic and add to meat.",
+    "Add salt and seasoning and cover meat to steam for 5-10 minutes.",
+    "Heat pan over medium high heat until hot and then add the olive oil. then add the chicken.",
+    "Fry on one side until browned and then flip.",
+    "Brown the second side and then transfer the meat to a bowl.",
+    "Add chopped onion and garlic and saute until tender and starting to brown.",
+    "Add grinded pepper, tomato puree and stir intermintently.",
+    "Wash salmon and herrings. Then add to stew.",
+    "After 6-10 minutes, add  spices and allow to cook.",
+    "Taste for salt and add some chopped onions.",
+    "Finally add fried meat and allow to simmer for 3 minutes.",
+    "Fetch some corn flour and add cold water. Then mix thoroughly to form a solution.",
+    "Boil  enough water and add corn flour to cook for 5-10 minutes.",
+    "Fetch some of the solution into a separate bowl.",
+    "Mix dry corn dough and cassava dough and Add mixture bit by bit to the boiling corn dough and stir thoroughly to prevent any lumps.",
+    "Add the corn dough solution you fetched aside to the Tuo Zaafi to make it soft and stir",
+    "After 15-20 minutes of stirring the Tuo Zaafi, you turn of the heat.",
+    "Serve Tuo Zaafi with stew and soup."];
+    
+    let txt = "<ol>";
+        steps.forEach(mySteps);
+        txt+= "</ol>"
+        document.write(txt);
+
+    function mySteps(value){
+        return txt+= "<li>" + value + "</li>";
+    }
+</script>
    </section>
 
 

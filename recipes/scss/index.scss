@@ -2,7 +2,7 @@
 @import 'config';
 
 *{
-    border: 1px solid navy;
+    //border: 1px solid navy;
     margin: 0;
     padding: 0;
 }
@@ -21,12 +21,18 @@ body{
     .recipe-select{
         display: inline-grid;
        justify-content: space-between;
+       align-content: center;
         grid-template-columns: auto auto auto;
         margin-top: 50px;
 
         figure{
+           margin: 0 15px;
             &:hover figcaption{
                 color: rgba(20, 19, 19, 0.658);
+            }
+
+            img{
+                object-fit: cover;
             }
         }
         figcaption{

@@ -1,5 +1,4 @@
 * {
-  border: 1px solid navy;
   margin: 0;
   padding: 0;
 }
@@ -20,13 +19,24 @@ body .recipe-select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
   margin-top: 50px;
 }
 
+body .recipe-select figure {
+  margin: 0 15px;
+}
+
 body .recipe-select figure:hover figcaption {
   color: rgba(20, 19, 19, 0.658);
+}
+
+body .recipe-select figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body .recipe-select figcaption {
