@@ -46,6 +46,9 @@ body .recipe-select figcaption {
 }
 
 @media screen and (max-width: 500px) {
+  html {
+    max-width: 100%;
+  }
   body > h1 {
     font-size: 33px;
   }
@@ -55,9 +58,6 @@ body .recipe-select figcaption {
   .recipe-select figure {
     display: block;
     margin: 10px 0;
-  }
-  figure img {
-    min-width: 100%;
   }
 }
 /*# sourceMappingURL=index.css.map */

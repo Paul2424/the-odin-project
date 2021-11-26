@@ -52,7 +52,7 @@
   font-size: larger;
   width: 64.3%;
   max-height: 400px;
-  overflow: auto;
+  overflow-y: auto;
   border-radius: 10px 10px 10px 0;
   background: white;
 }
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 500px) {
   * * {
-    min-width: 100%;
+    min-width: 95%;
     overflow-x: hidden;
   }
   * body, * .desc {
@@ -91,9 +91,12 @@
   }
   * ol li {
     font-size: 15px;
+    position: relative;
+    left: -25px;
   }
   * .steps {
     position: absolute;
+    right: 12px;
     bottom: -100px;
   }
 }
