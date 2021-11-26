@@ -46,6 +46,7 @@ body{
 @media screen and (max-width:500px){
     html{
         max-width: 100%;
+        overflow-x: hidden;
     }
     
     body>h1{
