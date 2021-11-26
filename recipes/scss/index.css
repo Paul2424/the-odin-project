@@ -28,6 +28,7 @@ body .recipe-select {
 
 body .recipe-select figure {
   margin: 0 15px;
+  padding-bottom: 15px;
 }
 
 body .recipe-select figure:hover figcaption {
@@ -42,5 +43,21 @@ body .recipe-select figure img {
 body .recipe-select figcaption {
   font-family: Lobster;
   font-size: larger;
+}
+
+@media screen and (max-width: 500px) {
+  body > h1 {
+    font-size: 33px;
+  }
+  body .recipe-select {
+    display: block;
+  }
+  .recipe-select figure {
+    display: block;
+    margin: 10px 0;
+  }
+  figure img {
+    min-width: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

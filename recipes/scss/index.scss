@@ -27,6 +27,7 @@ body{
 
         figure{
            margin: 0 15px;
+           padding-bottom: 15px;
             &:hover figcaption{
                 color: rgba(20, 19, 19, 0.658);
             }
@@ -40,4 +41,26 @@ body{
             font-size: larger;
         }
     }
+}
+
+@media screen and (max-width:500px){
+    body>h1{
+        font-size: 33px;
+    }
+     body  .recipe-select{
+            display: block;
+            //grid-template-rows: auto auto auto;
+            }
+
+        .recipe-select figure{
+            display: block;
+            margin: 10px 0;
+        }
+        figure img{
+            min-width: 100%;
+            
+        }
+    
+
+
 }
