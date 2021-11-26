@@ -55,6 +55,8 @@ body{
      body  .recipe-select{
             display: block;
             //grid-template-rows: auto auto auto;
+            overflow-x: hidden;
+            text-align: center;
             }
 
         .recipe-select figure{

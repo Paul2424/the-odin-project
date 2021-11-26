@@ -55,6 +55,8 @@ body .recipe-select figcaption {
   }
   body .recipe-select {
     display: block;
+    overflow-x: hidden;
+    text-align: center;
   }
   .recipe-select figure {
     display: block;
